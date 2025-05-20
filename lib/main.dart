@@ -1,8 +1,8 @@
-import 'package:fluter_test/features/user_list/presentation/bloc/user_bloc.dart';
+import 'package:fluter_test/modules/user_list/presentation/bloc/user_bloc.dart';
 import 'package:fluter_test/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'features/user_list/presentation/pages/user_list_page.dart';
+import 'modules/user_list/presentation/pages/user_list_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

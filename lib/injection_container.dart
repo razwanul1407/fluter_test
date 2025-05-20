@@ -4,13 +4,13 @@ import 'core/network/api_client.dart';
 import 'core/network/network_info.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'features/user_list/data/datasources/user_local_data_source.dart';
-import 'features/user_list/data/datasources/user_remote_data_source.dart';
-import 'features/user_list/data/repositories/user_repository_impl.dart';
-import 'features/user_list/domain/usecases/get_users.dart';
-import 'features/user_list/domain/usecases/search_users.dart';
-import 'features/user_list/presentation/bloc/user_bloc.dart';
-import 'package:fluter_test/features/user_list/domain/repository/user_repository.dart';
+import 'modules/user_list/data/datasources/user_local_data_source.dart';
+import 'modules/user_list/data/datasources/user_remote_data_source.dart';
+import 'modules/user_list/data/repositories/user_repository_impl.dart';
+import 'modules/user_list/domain/usecases/get_users.dart';
+import 'modules/user_list/domain/usecases/search_users.dart';
+import 'modules/user_list/presentation/bloc/user_bloc.dart';
+import 'package:fluter_test/modules/user_list/domain/repository/user_repository.dart';
 
 final sl = GetIt.instance;
 
