@@ -1,10 +1,5 @@
 # fluter_test
 
-## Version
-
-- Flutter Version 3.29.3
-- using FVM for Version Control
-
 ## Features
 
 - User list with pagination (10 items per page)
@@ -31,6 +26,32 @@ The application follows Clean Architecture principles with:
 - **Dependency Injection**: GetIt
 - **Serialization**: json_serializable
 - **Linting**: Flutter recommended linter rules
+
+
+## APP ENVIRONMENT
+
+To run this project, you will need to set fvm in windows. 
+
+`Flutter 3.29.3`
+
+`Dart 3.7.2`
+
+
+## Installation
+
+Install project using following bash command.
+
+```bash
+  fvm flutter pub get
+```
+
+
+Then run this command for android initiation
+
+```bash
+  fvm flutter run
+```
+
 
 ## Author
 
