@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:bloc/bloc.dart';
-import 'package:fluter_test/features/user_list/domain/usecases/get_users.dart';
-import 'package:fluter_test/features/user_list/domain/usecases/search_users.dart';
-import 'package:fluter_test/features/user_list/presentation/bloc/user_event.dart';
-import 'package:fluter_test/features/user_list/presentation/bloc/user_state.dart';
+import 'package:fluter_test/modules/user_list/domain/usecases/get_users.dart';
+import 'package:fluter_test/modules/user_list/domain/usecases/search_users.dart';
+import 'package:fluter_test/modules/user_list/presentation/bloc/user_event.dart';
+import 'package:fluter_test/modules/user_list/presentation/bloc/user_state.dart';
 
 class UserBloc extends Bloc<UserEvent, UserState> {
   final GetUsers getUsers;

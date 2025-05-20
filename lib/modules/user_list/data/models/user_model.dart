@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:fluter_test/features/user_list/domain/entities/user.dart';
+import 'package:fluter_test/modules/user_list/domain/entities/user.dart';
 import 'package:json_annotation/json_annotation.dart';
 part 'user_model.g.dart';
 

@@ -1,5 +1,5 @@
-import 'package:fluter_test/features/user_list/domain/entities/user.dart';
-import 'package:fluter_test/features/user_list/presentation/widgets/user_detail_card.dart';
+import 'package:fluter_test/modules/user_list/domain/entities/user.dart';
+import 'package:fluter_test/modules/user_list/presentation/widgets/user_detail_card.dart';
 import 'package:flutter/material.dart';
 
 class UserDetailPage extends StatelessWidget {

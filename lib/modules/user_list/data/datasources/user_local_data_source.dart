@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:fluter_test/core/constants/app_constants.dart';
 import 'package:fluter_test/core/error/exceptions.dart';
-import 'package:fluter_test/features/user_list/domain/entities/user.dart';
+import 'package:fluter_test/modules/user_list/domain/entities/user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 abstract class UserLocalDataSource {

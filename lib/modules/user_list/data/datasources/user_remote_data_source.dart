@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:fluter_test/core/error/exceptions.dart';
 import 'package:fluter_test/core/network/api_client.dart';
-import 'package:fluter_test/features/user_list/data/models/user_model.dart';
-import 'package:fluter_test/features/user_list/domain/entities/user.dart';
+import 'package:fluter_test/modules/user_list/data/models/user_model.dart';
+import 'package:fluter_test/modules/user_list/domain/entities/user.dart';
 
 abstract class UserRemoteDataSource {
   Future<List<User>> getUsers(int page);

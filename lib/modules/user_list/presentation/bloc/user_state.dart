@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:fluter_test/features/user_list/domain/entities/user.dart';
+import 'package:fluter_test/modules/user_list/domain/entities/user.dart';
 
 abstract class UserState extends Equatable {
   const UserState();

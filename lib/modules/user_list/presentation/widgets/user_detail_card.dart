@@ -1,4 +1,4 @@
-import 'package:fluter_test/features/user_list/domain/entities/user.dart';
+import 'package:fluter_test/modules/user_list/domain/entities/user.dart';
 import 'package:flutter/material.dart';
 
 class UserDetailCard extends StatelessWidget {

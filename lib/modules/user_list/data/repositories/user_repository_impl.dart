@@ -1,10 +1,10 @@
 import 'package:fluter_test/core/error/exceptions.dart';
 import 'package:fluter_test/core/error/failures.dart';
 import 'package:fluter_test/core/network/network_info.dart';
-import 'package:fluter_test/features/user_list/data/datasources/user_local_data_source.dart';
-import 'package:fluter_test/features/user_list/data/datasources/user_remote_data_source.dart';
-import 'package:fluter_test/features/user_list/domain/entities/user.dart';
-import 'package:fluter_test/features/user_list/domain/repository/user_repository.dart';
+import 'package:fluter_test/modules/user_list/data/datasources/user_local_data_source.dart';
+import 'package:fluter_test/modules/user_list/data/datasources/user_remote_data_source.dart';
+import 'package:fluter_test/modules/user_list/domain/entities/user.dart';
+import 'package:fluter_test/modules/user_list/domain/repository/user_repository.dart';
 import 'package:flutter/foundation.dart';
 
 class UserRepositoryImpl implements UserRepository {

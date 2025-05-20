@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'user_detail_page.dart';
-import 'package:fluter_test/features/user_list/presentation/bloc/user_bloc.dart';
-import 'package:fluter_test/features/user_list/presentation/bloc/user_event.dart';
-import 'package:fluter_test/features/user_list/presentation/bloc/user_state.dart';
-import 'package:fluter_test/features/user_list/presentation/widgets/error_widget.dart';
-import 'package:fluter_test/features/user_list/presentation/widgets/loading_widget.dart';
-import 'package:fluter_test/features/user_list/presentation/widgets/user_card.dart';
+import 'package:fluter_test/modules/user_list/presentation/bloc/user_bloc.dart';
+import 'package:fluter_test/modules/user_list/presentation/bloc/user_event.dart';
+import 'package:fluter_test/modules/user_list/presentation/bloc/user_state.dart';
+import 'package:fluter_test/modules/user_list/presentation/widgets/error_widget.dart';
+import 'package:fluter_test/modules/user_list/presentation/widgets/loading_widget.dart';
+import 'package:fluter_test/modules/user_list/presentation/widgets/user_card.dart';
 
 class UserListPage extends StatefulWidget {
   const UserListPage({super.key});
