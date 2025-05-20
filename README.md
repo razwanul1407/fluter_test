@@ -33,3 +33,5 @@ The application follows Clean Architecture principles with:
 - **Linting**: Flutter recommended linter rules
 
 ## Author
+
+- @razwanul1407
